@@ -16,7 +16,7 @@ $book = $_GET['book'];
 $ch = curl_init();
 
 //$url = "http://api.wunderground.com/api/9cbeeefb5645e05c/conditions/q/".$params[1]."/".$params[0].".json";
-$url = "https://www.googleapis.com/books/v1/volumes?q/".$book."/".".json";
+$url = "https://www.googleapis.com/books/v1/volumes?q=/".$book."/".".json";
 
 //print_r($url);
 //Set the URL that you want to GET by using the CURLOPT_URL option.
