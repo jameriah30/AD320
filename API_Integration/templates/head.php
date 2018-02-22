@@ -20,9 +20,6 @@
             <div id="top-nav">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="create.php">Wish List Form</a></li>
-                    <li><a href="list.php">Book List</a></li>
-                    <!--                    <li><a href="#">Help</a></li>-->
                 </ul>
             </div>
             <div class="clr"></div>

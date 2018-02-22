@@ -1,13 +1,4 @@
-<!--<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">-->
-<!--<html>-->
-<!--<head>-->
-<!--    <title>Current Weather</title>-->
-<!--</head>-->
-<!---->
-<!--<body>-->
 
-<!--</body>-->
-<!--</html>-->
 <?php include "templates/head.php";?>
 
 
@@ -28,22 +19,13 @@
                 <!--                    <p><script>generateText(12)</script></p>-->
                 <h1>Search for books!</h1>
 
-                <form name="myForm" method="GET" action="PHP-1.php">
-<!--                    <select name="city">-->
-<!--                        <option disabled selected value> -- select an option -- </option>-->
-<!--                        <option value="new_york:ny">New York</option>-->
-<!--                        <option value="seattle:wa">Seattle</option>-->
-<!--                        <option value="sfo:ca">San Francisco</option>-->
-<!--                        <option value="chicago:il">Chicago</option>-->
-<!--                    </select>-->
-                    Search <input type="text" name="book"><br>
-                    <input name="submit" type="submit"/>
+                <form name="myForm" method="GET" action="PHP-2.php">
+
+                    Search <input type="text" name="book" pattern="[a-zA-Z]{1,}" title="Book title or subject should only contain letters" ><br>
+                    <input type="submit"/>
 
                 </form>
-<!--                <p>The Book Wish list is a simple application that allows you too create a list of books that you want-->
-<!--                    and store them in a database. Simply click on the<a href="create.php " > Form Page </a>, and enter the book-->
-<!--                    info for each book that you wish to have. After each submission, you will get a confirmation that-->
-<!--                    your book was properly stored in the wish list database. Give it a try!</p>-->
+
 
             </div>
         </main>
