@@ -1,0 +1,61 @@
+ul.lastfmlist {
+	list-style-type: none;
+	padding: 0;
+	width: 100%;
+	display: block;
+}
+
+.loaderdiv {
+	margin-bottom: 10px;
+	height: 20px;
+}
+ul.lastfmlist li{
+	height: 130px;
+	width: 130px;
+	background-color: #888;
+	border: 1px solid #888;
+	box-shadow: 2px 2px 5px #aaa;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	display: inline-block;
+	margin:0 10px 10px 0;
+}
+ul.lastfmlist li div.meta {
+	position: absolute;
+	z-index: 1033;
+	width: 100%;
+	background: rgba(0,0,0,0.6);
+	bottom: 0;
+	color: white;
+	padding: 5px;
+}
+ul.lastfmlist li div.meta h1 {
+	font-weight: bold;
+}
+ul.tags li {
+	height: initial;
+	width: initial;
+	padding: 5px;
+	color: white;
+}
+
+ul.lastfmlist li div.meta h1, ul.lastfmlist li div.meta h2 {
+	font-size: 12px;
+	margin:5px 0px;
+	padding: 0;
+	color: white;
+}
+ul.lastfmlist li div.meta h2 {
+	font-size: 11px;
+	
+}
+ul.lastfmlist li div.meta .yt {
+	top:initial!important;
+	bottom:5px;
+	right:5px;
+	left:initial!important;
+	width:20px!important;
+	cursor: pointer;
+	height: 20px!important;	
+}
